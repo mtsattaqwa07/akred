@@ -17,7 +17,8 @@ body {
     "logo logo"
     "kaper kaper"
     "satu dua"
-    "tiga empat";
+    "tiga empat"
+    "lima enam";
   gap: 40px;
   justify-items: center;
 }
@@ -51,19 +52,31 @@ area {
 }
 .dua {
   grid-area: dua;
-  background-color: rgb(180, 24, 180);
+  background-color: blue;
   padding: 5px 10px;
   border-radius: 5px;
 }
 .tiga {
   grid-area: tiga;
-  background-color: rgb(34, 34, 185);
+  background-color: red;
   padding: 5px 10px;
   border-radius: 5px;
 }
 .empat {
   grid-area: empat;
-  background-color: green;
+  background-color: blue;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.lima {
+  grid-area: lima;
+  background-color: red;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.enam {
+  grid-area: enam;
+  background-color: blue;
   padding: 5px 10px;
   border-radius: 5px;
 }
@@ -87,7 +100,9 @@ a:hover {
       "satu satu"
       "dua dua"
       "tiga tiga"
-      "empat empat";
+      "empat empat"
+      "lima lima"
+      "enam enam";
   }
   .kaper h2 {
     font-size: 1.5em;
